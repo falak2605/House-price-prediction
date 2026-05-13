@@ -1,139 +1,102 @@
+\# House Price Prediction using Machine Learning
 
-# 🏡 House Price Prediction using Machine Learning
 
-A beginner-friendly project to predict house prices based on various factors such as square footage, number of bedrooms, location, and more. This project walks through data exploration, visualization, linear regression, and gradient boosting to achieve high model accuracy.
 
----
+\## Overview
 
-## 📂 Project Structure
+This project focuses on predicting house prices using machine learning regression techniques. The workflow includes data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and performance evaluation.
 
-```
 
-data/                         # Dataset used for training and testing
-house_price_prediction.ipynb  # Main Jupyter Notebook with all code
-requirements.txt              # Python dependencies
-README.md                     # Project documentation
 
-````
+\## Objectives
 
----
+\- Analyze housing dataset features
 
-## 📊 Dataset
+\- Perform data cleaning and preprocessing
 
-This dataset contains details of house listings including:
+\- Train regression models for price prediction
 
-- Number of bedrooms and bathrooms  
-- Square footage (with and without basement)  
-- Waterfront presence  
-- Location via latitude and longitude  
-- Zipcode  
-- Year built and renovated  
-- Price of the house  
+\- Compare model performance using evaluation metrics
 
-**Source:** _[Add dataset source or link here]_
 
----
 
-## 🧪 Models Used
+\## Technologies Used
 
-### 🔹 Linear Regression
-- First model used to understand relationships in data  
-- Achieved ~73% accuracy  
+\- Python
 
-### 🔹 Gradient Boosting Regressor
-- Powerful ensemble model using decision trees  
-- Achieved **~91.94% accuracy**
+\- Pandas
 
----
+\- NumPy
 
-## 📈 Key Visualizations
+\- Matplotlib
 
-- Most common house types by bedroom count  
-- Price vs. Living Area  
-- Price vs. Location (Latitude and Longitude)  
-- Influence of features like:
-  - Basement area  
-  - Floors  
-  - Condition  
-  - Waterfront  
+\- Seaborn
 
----
+\- Scikit-learn
 
-## 🔧 Requirements
+\- Jupyter Notebook
 
-Install dependencies using:
 
-```bash
-pip install -r requirements.txt
-````
 
-### Main Libraries Used
+\## Machine Learning Models
 
-* pandas
-* numpy
-* matplotlib
-* seaborn
-* scikit-learn
+\- Linear Regression
 
----
+\- Gradient Boosting Regressor
 
-## 🚀 How to Run
 
-1. **Clone the repository**
 
-```bash
-git clone https://github.com/Shreyas3108/house-price-prediction.git
-cd house-price-prediction
-```
+\## Workflow
 
-2. **Install dependencies**
+1\. Data Collection
 
-```bash
-pip install -r requirements.txt
-```
+2\. Data Cleaning
 
-3. **Run the Jupyter Notebook**
+3\. Exploratory Data Analysis
 
-```bash
-jupyter notebook house_price_prediction.ipynb
-```
+4\. Feature Scaling
 
----
+5\. PCA for Dimensionality Reduction
 
-## 🎯 Goal
+6\. Model Training
 
-To achieve over **85% prediction accuracy** in estimating house prices using regression techniques.
+7\. Model Evaluation
 
-✅ Final model using Gradient Boosting achieved **91.94% accuracy**.
 
----
 
-## 📚 Learning Points
+\## Evaluation Metrics
 
-* Data cleaning and preprocessing
-* Exploratory data analysis
-* Feature engineering
-* Linear Regression vs Gradient Boosting
-* Model evaluation using `r2_score`
+\- Mean Absolute Error (MAE)
 
----
+\- Root Mean Squared Error (RMSE)
 
-## 📌 Credits
+\- R² Score
 
-Written by **Shreyas Raghavan**
-Originally published on Medium: *[https://medium.com/data-science/create-a-model-to-predict-house-prices-using-python-d34fe8fad88f]*
 
----
 
-## 🌟 Contribute
+\## Key Learnings
 
-Feel free to fork this project, improve the model, or apply it to other real estate datasets!
+\- Importance of preprocessing and feature scaling
 
----
+\- Regression model evaluation techniques
 
-## 📬 Contact
+\- Dimensionality reduction using PCA
 
-For queries or collaborations, reach out on GitHub or comment on the Medium article.
+\- Comparing traditional and ensemble regression models
 
-```
-```
+
+
+\## Future Improvements
+
+\- Hyperparameter tuning
+
+\- Model deployment
+
+\- Advanced feature engineering
+
+
+
+\## Author
+
+Falak Mehta
+
